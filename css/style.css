@@ -1,0 +1,30 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*--------------------------------HEADER----------------------------*/
+
+.orange-row {
+    min-height: 75px;
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+}
+
+.nav-options {
+    color: white;
+}
