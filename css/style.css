@@ -118,16 +118,27 @@ img {
 /*------------------------------FOOTER-------------------------*/
 footer {
     background-color: rgb(27, 17, 31);
+    margin-top: 1.5rem;
 }
 
 .footer {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
 }
 
 .footer-sx {
     color: white;
     padding: 35px 0;
 }
+
+.footer-sx p {
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+
 .footer-sx ul{
     list-style-type: none;
 }
@@ -135,8 +146,12 @@ footer {
 .footer-sx li {
     display: inline-block;
     margin-right: .5rem;
+}
+
+.footer-sx a {
     color: white;
     text-decoration: none;
+    font-size: .8rem;
 }
 
 .footer-dx {
@@ -145,6 +160,11 @@ footer {
 }
 
 .footer-dx p {
-    font-size: .8rem;
+    font-size: 1rem;
     text-align: center;
+}
+
+.useful-link i {
+    margin-right: 5px;
+    color: white;
 }
