@@ -11,20 +11,88 @@ ul {
 
 /*--------------------------------HEADER----------------------------*/
 
+header {
+    margin: 0 0 30px 0;
+}
+
 .orange-row {
     min-height: 75px;
     background-color: orangered;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
+    padding: 20px 10%;
 }
 
 .logo {
-    height: 100%;
+    width: 15%;
+}
+
+.orange-row a{
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+/*-----------------------------END HEADER-------------------------*/
+
+
+/*------------------------------MAIN------------------------------*/
+
+main {
+    justify-content: center;
     display: flex;
 }
 
-.nav-options {
-    color: white;
+.row {
+    display: flex;
+    flex-direction: ;
+}
+
+.column {
+    background-color: aquamarine;
+    width: 20%;
+    height: 500px;
+    display: flex; 
+    padding: 20px 10px;
+    margin: 0 10px;
+}
+
+.container {
+ padding: 20px;
+ display: flex;
+ width: 20%;
+}
+
+.container img {
+    height: 100%;
+    display: flex;
+    
+}
+
+.discount {
+    display: flex;
+    display: inline;
+}
+
+.attributes {
+    display: flex;
+    display: inline;
+}
+
+.brand {
+    display: flex;
+}
+
+.product-name {
+    display: flex;
+}
+
+.new-price {
+    display: flex;
+}
+
+.original-price {
+    display: flex;
 }
